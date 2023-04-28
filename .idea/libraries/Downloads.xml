@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Downloads">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/Workspace/hamcrest-all-1.3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Workspace/junit-4.12.jar!/" />
+      <root url="file://$USER_HOME$/Downloads" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Downloads" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads" recursive="false" type="SOURCES" />
+  </library>
+</component>

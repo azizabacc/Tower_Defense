@@ -1,0 +1,62 @@
+#pane{
+    -fx-background-image: url("/res/res0/mainMenu.png");
+    -fx-background-size: 1280 960;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+#TileMenu{
+    -fx-background-image: url("/res/res0/back2.png");
+    -fx-background-size: 160 600;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+#infobar{
+    -fx-background-image: url("/res/res0/back2.png");
+}
+
+#borderPaneEditor{
+    -fx-border-width: 5;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-background-image: url("/res/res1/green.png");
+}
+#grid{
+    -fx-border-width: 600 600;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+#gagner{
+    -fx-background-image: url("/res/res0/gagner.jpg");
+    -fx-background-size: 333 134;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+#GameOver{
+    -fx-background-image: url("/res/res0/gameover.png");
+    -fx-background-size: 1280 960;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.button {
+    -fx-background-color: #5bc0de;
+    -fx-border-radius: 8;
+}
+.button {
+    -fx-border-color: #46b8da;
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+}
+/*hover state*/
+.button:hover {
+    -fx-border-color: #269abc;
+    -fx-background-color: #31b0d5;
+}
+/*pressed selected*/
+.button:pressed {
+    -fx-background-color: #31b0d5;
+    -fx-border-color: #269abc;
+    -fx-effect: innershadow(gaussian, #269abc, 10, 0, 0, 3);
+}
